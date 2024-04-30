@@ -1,0 +1,21 @@
+{
+  "name": "mydairy",
+  "version": "1.0.0",
+  "description": "\"this is package.json\",",
+  "mccain": "index.js",
+  "scripts": {
+    
+    "start": "nodemon  src/index.js"
+  },
+  "author": "rutvik",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "git": "^0.1.5",
+    "mogoose": "^0.0.1-security",
+    "mongoose": "^8.3.2",
+    "nodemon": "^3.1.0"
+  }
+}

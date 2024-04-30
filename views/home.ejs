@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="note.css">
+    <title>My Diary</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+            <div class="nav-items">
+                <div class="navdiv">
+                    <div class="logo"></div>
+                <ul>
+                    <li><i class="fa-solid fa-house"><a href="#">Home</i></a></li>
+                    <li> <form action="/search" method="GET">
+                        <input for="search" type="Date"  name="search"></i>
+                        <button type="submit"><i class="fa-thin fa-magnifying-glass">Search</i></button>
+                    </form></li>
+                    <li><a href="#"><i class="fa-duotone fa-address-card">About</i></a></li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+    </header>
+    <main>
+         <section>
+        <div class="form-group">
+            <form action="/home" method="post">
+            <label for="date">Date:</label>
+            <input type="Date" id="name" name="date"  required autocomplete="off">
+          </div>
+          <div class="form-group">
+            <label for="day">Day:</label>
+            <input type="text" id="name" name="day"  required autocomplete="off">
+          </div>
+        </section>
+        <section class="entry">
+            <h2>Today's Entry</h2>
+            <textarea for="script" placeholder="Write your thoughts here..." id="script" name="script"></textarea>
+           <button type="save" class="save-btn">Save</button>
+        
+        </section>
+    </form>
+        
+    </main>
+    <div class="about-container">
+        <h2>About</h2>
+        <p>Welcome to our website! We are passionate about...</p>
+        <h4>Vana Rutvik</h4>
+    </div>
+    <footer>
+        <p>© 2024 My Diary</p>
+    </footer>
+</body>
+</html>
