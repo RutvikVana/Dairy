@@ -1,5 +1,6 @@
 const express=require("express");
 const path=require("path");
+const http=require("http");
 const bcrypt=require("bcrypt");
 const collection=require("./config");
 const collect =require("./DairY");
@@ -78,6 +79,9 @@ app.get('/search',async (req, res) => {
     
 
     
+});
+const server = http.createServer((req,res)=>{
+    res.render("signup");
 });
 app.listen(3000,()=>{
     console.log("server running");
